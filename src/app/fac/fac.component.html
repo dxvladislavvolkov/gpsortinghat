@@ -1,0 +1,9 @@
+<div class="fac">
+    <img class="logo" [src]="logo">
+    <h2>{{facName}}</h2>
+    <div class="list">
+        <h3 *ngFor="let student of students">
+                {{student.name}}
+        </h3>
+    </div>
+</div>
